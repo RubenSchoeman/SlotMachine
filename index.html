@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/head.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <title>SlotMachine</title>
+</head>
+<body>
+    <script id="slot" type="text/x-handlebars-template">
+        <div class="head">
+            <h1>Slot Machine Of Joy And Terror</h1>
+        </div>
+            {{#each person}}
+                <div class="col-xs-4">
+                    <div class="heading">
+                        <h1>{{name}}</h1>
+                    </div>
+                    <div class="img">
+                        <img class="img_holder" src="{{img}}">
+                    </div>
+
+                </div>
+            {{/each}}
+
+            <div class="spin">
+                <button class="spin_btn"><h1>SPIN</h1></button>
+            </div>
+    </script>
+
+    <div class="container">
+
+    </div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

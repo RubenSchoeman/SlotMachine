@@ -1,0 +1,43 @@
+.head {
+    text-align: center;
+    border-style: solid;
+    background-color: rgb(23, 48, 22);
+    color: grey;
+
+}
+
+.heading {
+    text-align: center;
+    border-style: solid;
+    background-color: #0f3042;
+    margin-top: 20px;
+    color: grey;
+}
+
+.img {
+    text-align: center;
+    border-style: solid;
+    background-color: #174760;
+    margin-top: 20px;
+    color: grey;
+    height: 300px;
+}
+
+.img_holder {
+    margin-top: 20px;
+}
+
+.spin {
+    text-align: center;
+    margin-top: 50px;
+    border-style: solid;
+    background-color: rgb(23, 48, 22);
+}
+
+.spin_btn {
+    text-align: center;
+    margin-top: 50px;
+    border-style: outset;
+    width: 500px;
+
+}
